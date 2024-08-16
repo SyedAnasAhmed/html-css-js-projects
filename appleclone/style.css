@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.head li {
+    display: inline-block;
+    padding: 6px;
+
+
+}
+
+.head {
+    padding: 5px 280px;
+    background-color: rgba(231, 230, 231, 0.8);
+    color: rgba(100, 100, 100, 0.9);
+    margin: 0px;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 12px 12px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.navbar {
+    padding: 0px 275px;
+    margin: 0px;
+    background-color: rgba(195, 195, 195, 0.9);
+
+}
+
+.para {
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.iphone14,.macbook{
+    margin-top: 15px;
+    margin-bottom :15px; ;
+}
+
+
+.iphone14pro {
+    width: 1583px;
+    height: 700px;
+}
+
+.iphone14prostuff {
+    background-image: url(./images/hero_iphone14pro_spring__9xo85pm6sbmm_largetall\ \(1\).jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: whitesmoke;
+    text-align: center;
+    padding: 110px 0px;
+    font-family: sans-serif;
+}
+
+.iphone14prostuff,.iphone14stuff h1{
+    font-size: 60px;
+}
+
+.macbookstuff h1{
+    font-size: 55px;
+}
+
+.iphone14prostuff,.iphone14stuff,.macbookstuff p{
+    font-size: 28px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.iphone14prostuff a{
+    text-decoration: none;
+    padding:15px;
+    font-size: 20px;
+    color: rgba(31, 75, 255, 0.8);
+}
+
+
+.iphone14stuff{
+    background-image: url(./images/14legend.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: black;
+    text-align: center;
+    padding: 110px 0px;
+    font-family: sans-serif;
+}
+
+.iphone14stuff a{
+    text-decoration: none;
+    padding:15px;
+    font-size: 20px;
+    color: rgba(31, 75, 255, 0.8);
+}
+.iphone14,.macbook{
+    width: 1583px;
+    height: 760px;
+}
+
+.macbookstuff{
+    background-image: url(./images/macboklegend.jpg);
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: black;
+    text-align: center;
+    padding: 110px 0px;
+    font-family: sans-serif;
+}
+.macbookstuff a{
+    text-decoration: none;
+    padding:15px;
+    font-size: 20px;
+    color: rgba(31, 75, 255, 0.8);
+}
+
+
+.backtoschool{
+    display: inline-block;
+    width: 770px;
+    height: 600px;
+    vertical-align: top;
+    margin-left: 15px;
+    background-image: url(./images/backtoschool.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.backtoschooltext h4{
+    font-family: sans-serif;
+    font-size: 38px;
+    text-align: center;
+    /* padding: 75px 200px; */
+    padding-top: 75px;
+    padding-left: 200px; 
+    padding-right: 200px;
+}
+
+.backtoschooltext p{
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    /* padding: 0px 0px; */
+    padding-bottom: 10px;
+}
+
+.backtoschooltext a{
+    text-decoration: none;
+    padding: 20px 335px;
+    font-size: 20px;
+    color: rgba(31, 75, 255, 0.8);
+}
+
+.applewatch {
+    display: inline-block;
+    width: 770px;
+    height: 600px;
+    vertical-align: top;
+    margin-left: 15px;
+    background-image: url(./images/applewatch.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.applewatchimg {
+    margin: 0px 310px;
+    margin-top: 60px;
+}
+
+.applewatchtext {
+    margin: 12px 215px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+.applewatchlinks {
+    margin-left: 310px;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+.applewatch a {
+    text-decoration: none;
+    color: rgba(29, 59, 246, 0.8);
+}
+
+.visionpro{
+    display: inline-block;
+    width: 770px;
+    height: 600px;
+    vertical-align: top;
+    margin-left: 15px;
+    background-image: url(./images/visionpro.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    /* text-decoration: none; */
+}
+
+.visionproimg img {
+    margin: 0px 300px;
+    margin-top: 410px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+ .visionpro2{ 
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    margin-bottom: 10px;
+} 
+
+.visionpro3{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: gray;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.visionproimg a{
+    text-decoration: none;
+    margin-left: 345px ;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgba(29, 59, 246, 0.8) ;
+    
+}
+
+.tradeinpromo,.visionpro,.applenews,.applecard{
+    margin-top: 15px;
+}
+
+.tradeinpromo {
+    display: inline-block;
+    width: 770px;
+    height: 600px;
+    vertical-align: top;
+    margin-left: 15px;
+    background-image: url(./images/tradeinpromo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.tradeinpromoimg{
+    margin: 0px 280px;
+    margin-top: 50px;
+}
+
+.tradeinpromotext {
+    margin: 12px 215px;
+    font-family: sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tradeinpromo a {
+    margin-left: 260px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgba(29, 59, 246, 0.8);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.applenews{
+    display: inline-block;
+    width: 770px;
+    height: 600px;
+    vertical-align: top;
+    margin-left: 15px;
+    background-image: url(./images/applenews.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.applenewsimg {
+    margin: 0px 300px;
+    margin-top: 50px;
+}
+
+.applenews a{
+    margin-left: 260px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: rgba(29, 59, 246, 0.8);
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.applecard{
+    display: inline-block;
+    width: 770px;
+    height: 600px;
+    vertical-align: top;
+    margin-left: 15px;
+    background-image: url(./images/applecard.jpg);
+    background-size: cover;
+    background-position: center;   
+}
+.applecardimg{
+    margin: 0px 300px;
+    margin-top: 50px;
+}
+.applecardlinks{
+    margin-left: 260px;
+    margin-top: 20px; 
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.applecard a{
+    text-decoration: none;
+    color: rgba(29, 59, 246, 0.8);
+    margin-right: 20px;
+}
+
+.footer{
+    background-color: rgba(239, 239, 239, 0.8);
+}
+
+.footerlist {
+    margin-top: 30px;
+    /* background-color: rgba(239, 239, 239, 0.8); */
+    padding: 15px 0px;
+}
+
+.footerlist li {
+    margin: 10px 320px;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgba(55, 55, 55, 0.8);
+}
+
+.list2,.list3 {
+    /* background-color: rgba(239, 239, 239, 0.8); */
+    padding: 15px 0px;
+    display: inline-block;
+}
+
+.list2 li {
+    margin: 10px 0px;
+    margin-left: 320px;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgba(55, 55, 55, 0.8);
+}
+
+.list3 li {
+    margin-left: 90px;
+    list-style: none;
+    color: rgba(55, 55, 55, 0.8);
+    margin-bottom: 10px;
+    font-size: 13px;
+    font-family: sans-serif ;
+}
+.list3{
+    margin-bottom: 100px;
+    
+}
